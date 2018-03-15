@@ -1,0 +1,384 @@
+@charset"utf-8";
+body,p,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,input{
+    margin: 0;
+    padding:0;
+}
+$headerColor:#f2f2f2;
+$fontColor:#999;
+$font-size: 12px;
+$redColor:#c00;
+
+.header{
+    width: 100%;
+    height: 26px;
+    background: $headerColor;
+    color:$fontColor ;
+    a{
+            color: $fontColor;
+            text-decoration: none;
+        }
+    
+}
+.midHeader{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 26px;
+    font-size: $font-size;
+    .headLeft{
+        float: left;
+                
+        a{
+            margin-left:5px;
+        }
+        a:hover{
+            color:$redColor ;
+            
+            text-decoration: underline;
+        }
+    }
+    .headRight{
+        float: right;
+        font-size: $font-size;
+        a{
+            color: $fontColor;
+            text-decoration: none;
+        }
+        li{
+            list-style: none;
+            float: left;
+            padding: 0 5px;
+            
+        }
+        .myJiu{
+            i{
+                    width: 9px;
+                    height: 8px;
+                   display: inline-block;
+                    background: url("../img/public-24.png") no-repeat -99px 3px;
+            }
+            
+            a:hover{
+                color:$redColor ;
+                text-decoration: underline;  
+    }
+    .jiuBox{
+        
+        padding: 0 7px;
+        div{
+            display: none;
+            
+            a{
+                display: block;
+            }
+        }
+    }
+        }
+        .ceoEmail{
+            a{
+                color: $redColor
+            }
+        }
+        .myCar{
+            i{
+                    width: 12px;
+                    height: 12px;
+                    display: inline-block;
+                    background: url("../img/public-24.png") no-repeat -18px 1px;
+            }
+            b{
+                color: $redColor;
+            }
+            a:hover{
+                color:$redColor ;
+                text-decoration: underline;  
+    }
+        }
+         .clubVip{
+             a{
+                 color: $redColor;
+             }
+         }
+         .findLive{
+             a{
+                 border-left: 1px solid $fontColor;
+                 border-right: 1px solid $fontColor;
+                 padding:0 4px;
+             }
+             a:hover{
+                 color:$redColor ;
+                text-decoration: underline; 
+                
+             }
+         }
+         .phoneShow{
+             
+             position: relative;
+             i{
+                width: 12px;
+                height: 14px;
+                display: inline-block;
+                background: url(../img/public-24.png) no-repeat -62px 3px;
+             }
+             a{
+                 background: $redColor;
+                 padding: 0 3px;
+             }
+             img{
+                 display: none;
+                 position: absolute;
+                 left: 3px;
+                 border: 1px solid $fontColor;
+                 padding: 3px;
+             }
+         }
+        .webMap{
+            
+            i{                
+                width: 13px;
+                height: 14px;
+                display: inline-block;
+                background: url(../img/public-24.png) no-repeat -80px 3px;
+            }
+            b{
+                width: 9px;
+                height: 8px;
+                display: inline-block;
+                background: url("../img/public-24.png") no-repeat -99px 3px;
+            }
+            .mapBox{
+              border-left: 1px solid transparent;
+              border-right: 1px solid transparent;
+                display: inline-block;
+                position: relative;
+                padding: 0 3px;
+                .bottomBox{
+                    position: absolute;
+                    border: 1px solid #ededed;
+                    width: 200px;
+                    left: -1px;
+                    display: none;
+                    z-index: -1;
+                    padding: 3px 0;
+                   .shopbox{
+                       padding: 0 5px;
+                       
+                       h3{
+                           color: black;
+                       }
+                       a{
+                           padding:0 8px;
+                           margin-left: 2px;
+                       }
+                   }    
+                }
+                .backColor{
+                        background: #f9f9f9; 
+                        border: 1px solid #ededed;  
+                       }
+            }
+            
+            
+        }
+        .service{
+            i{
+                width: 13px;
+                height: 14px;
+                display: inline-block;
+                background: url(../img/public-24.png) no-repeat -90px -262px;;
+            }
+            b{
+                    width: 9px;
+                    height: 8px;
+                   display: inline-block;
+                    background: url("../img/public-24.png") no-repeat -99px 3px;
+            }
+            .serList{
+                
+                padding: 0 7px;
+                div{
+                 display: none;
+                 border: 1px solid transparent;
+            
+                a{
+                display: block;
+            
+        }
+        
+    }
+            }
+        } 
+        .hotLine{
+            span{
+                color: $redColor;
+                margin-left: 4px;
+            }
+        }
+    }
+    /////////////**********************************/////////////////
+    
+}
+.inputBox{
+        width: 100%;
+        height: 125px;
+        background: pink;
+        img{
+            vertical-align: middle;
+        }
+        .midInput{          
+            width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+            .inputImg{
+                    float: left;
+                   width: 257px;
+                    height: 65px;
+                    float: left;
+                    margin-top: 30px;                   
+            }
+            .seachBox{
+                width: 540px;
+                height: 60px;
+                float: left;
+                display: inline-block;
+                margin: 32px 0 0 20px;
+                input{
+                    height: 22px;
+                    line-height: 22px;
+                    padding: 5px;
+                    border: 0 none;
+                    color: #666;
+                    float: left;
+                    width: 439px;
+                    border: 3px solid #c00;
+                }
+                .seacBtn{
+                    display: inline-block;
+                    color: white;
+                    background: #c00;
+                    width: 85px;
+                    height: 38px;
+                    text-align: center;
+                    line-height: 38px;
+                    text-decoration: none;
+                }
+                .inputList{
+                    font-size: $font-size;
+                    margin-top: 5px;
+                    a{
+                        color: #666;
+                        border-left: 1px solid #999;
+                        padding: 0 6px;
+                       
+                        
+                    }
+                    .noLine{
+                        border: none;
+                        margin-left:-7px;
+                    }
+                    a:hover{
+                        color: $redColor;
+                        text-decoration: underline;
+                    }
+                }
+                
+            }
+            .inputRight{
+                        width: 363px;
+                        float: right;
+                        height: 64px;
+                        margin: 33px 0 0 0;
+                        display: inline-block;
+                }
+        }
+        
+    }
+    //********************daohang****************************
+.navBox{
+    width: 100%;
+    height: 34px;
+    background: #900;
+        .midNav{
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+            .navMenu{
+                float: left;
+                width: 190px;
+            height: 34px;
+            line-height: 34px;
+            background: #ce171f;
+            text-align: center;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: normal;
+            color: #fff;
+            font-weight: 600;
+            box-shadow: 4px 2px 5px rgba(0,0,0,0.2);
+        }
+        .navList{
+            width: 890px;
+            float: left;
+            height: 34px;
+            li{
+                list-style: none;
+                float: left;
+                    display: inline-block;
+                    line-height: 34px;
+                    text-align: center;
+                    float: left;
+                    
+                    a{
+                        color: white;
+                        padding: 0px 22px;
+                        font-size: 14px;
+                        display: inline-block;
+                        text-decoration: none;
+                        background: url(../img/navLine.png) no-repeat left center;
+                    }
+                    .hotIcon{
+                        width: 29px;
+                        position: absolute;
+                        height: 17px;
+                        background: url(../img/public-24.png) no-repeat 0 -264px;
+                        top: -7px;
+                        margin-left: 16px;
+                        }
+                        .hotIcon1{
+                        width: 29px;
+                        position: absolute;
+                        height: 17px;
+                        background: url(../img/public-24.png) no-repeat 0 -264px;
+                        top: -7px;
+                        margin-left: -33px;
+                        
+                        }
+                        .hotIcon2{
+                        width: 29px;
+                        position: absolute;
+                        height: 17px;
+                        background: url(../img/public-24.png) no-repeat -36px -264px;
+                        top: -7px;
+                        margin-left: -33px;
+                        
+                        }
+                    a:hover{
+                        color: #fff;
+                         text-decoration: none;
+                        background: #b40c10;
+                        height: 33px;
+                        
+                    }
+            }
+        }
+        .redHC{
+            float: left;
+            width: 120px;
+            height: 34px;
+            overflow: hidden;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+    
+}

@@ -1,0 +1,276 @@
+body, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, input {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  width: 100%;
+  height: 26px;
+  background: #f2f2f2;
+  color: #999; }
+  .header a {
+    color: #999;
+    text-decoration: none; }
+
+.midHeader {
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 26px;
+  font-size: 12px; }
+  .midHeader .headLeft {
+    float: left; }
+    .midHeader .headLeft a {
+      margin-left: 5px; }
+    .midHeader .headLeft a:hover {
+      color: #c00;
+      text-decoration: underline; }
+  .midHeader .headRight {
+    float: right;
+    font-size: 12px; }
+    .midHeader .headRight a {
+      color: #999;
+      text-decoration: none; }
+    .midHeader .headRight li {
+      list-style: none;
+      float: left;
+      padding: 0 5px; }
+    .midHeader .headRight .myJiu i {
+      width: 9px;
+      height: 8px;
+      display: inline-block;
+      background: url("../img/public-24.png") no-repeat -99px 3px; }
+    .midHeader .headRight .myJiu a:hover {
+      color: #c00;
+      text-decoration: underline; }
+    .midHeader .headRight .myJiu .jiuBox {
+      padding: 0 7px; }
+      .midHeader .headRight .myJiu .jiuBox div {
+        display: none; }
+        .midHeader .headRight .myJiu .jiuBox div a {
+          display: block; }
+    .midHeader .headRight .ceoEmail a {
+      color: #c00; }
+    .midHeader .headRight .myCar i {
+      width: 12px;
+      height: 12px;
+      display: inline-block;
+      background: url("../img/public-24.png") no-repeat -18px 1px; }
+    .midHeader .headRight .myCar b {
+      color: #c00; }
+    .midHeader .headRight .myCar a:hover {
+      color: #c00;
+      text-decoration: underline; }
+    .midHeader .headRight .clubVip a {
+      color: #c00; }
+    .midHeader .headRight .findLive a {
+      border-left: 1px solid #999;
+      border-right: 1px solid #999;
+      padding: 0 4px; }
+    .midHeader .headRight .findLive a:hover {
+      color: #c00;
+      text-decoration: underline; }
+    .midHeader .headRight .phoneShow {
+      position: relative; }
+      .midHeader .headRight .phoneShow i {
+        width: 12px;
+        height: 14px;
+        display: inline-block;
+        background: url(../img/public-24.png) no-repeat -62px 3px; }
+      .midHeader .headRight .phoneShow a {
+        background: #c00;
+        padding: 0 3px; }
+      .midHeader .headRight .phoneShow img {
+        display: none;
+        position: absolute;
+        left: 3px;
+        border: 1px solid #999;
+        padding: 3px; }
+    .midHeader .headRight .webMap i {
+      width: 13px;
+      height: 14px;
+      display: inline-block;
+      background: url(../img/public-24.png) no-repeat -80px 3px; }
+    .midHeader .headRight .webMap b {
+      width: 9px;
+      height: 8px;
+      display: inline-block;
+      background: url("../img/public-24.png") no-repeat -99px 3px; }
+    .midHeader .headRight .webMap .mapBox {
+      border-left: 1px solid transparent;
+      border-right: 1px solid transparent;
+      display: inline-block;
+      position: relative;
+      padding: 0 3px; }
+      .midHeader .headRight .webMap .mapBox .bottomBox {
+        position: absolute;
+        border: 1px solid #ededed;
+        width: 200px;
+        left: -1px;
+        display: none;
+        z-index: -1;
+        padding: 3px 0; }
+        .midHeader .headRight .webMap .mapBox .bottomBox .shopbox {
+          padding: 0 5px; }
+          .midHeader .headRight .webMap .mapBox .bottomBox .shopbox h3 {
+            color: black; }
+          .midHeader .headRight .webMap .mapBox .bottomBox .shopbox a {
+            padding: 0 8px;
+            margin-left: 2px; }
+      .midHeader .headRight .webMap .mapBox .backColor {
+        background: #f9f9f9;
+        border: 1px solid #ededed; }
+    .midHeader .headRight .service i {
+      width: 13px;
+      height: 14px;
+      display: inline-block;
+      background: url(../img/public-24.png) no-repeat -90px -262px; }
+    .midHeader .headRight .service b {
+      width: 9px;
+      height: 8px;
+      display: inline-block;
+      background: url("../img/public-24.png") no-repeat -99px 3px; }
+    .midHeader .headRight .service .serList {
+      padding: 0 7px; }
+      .midHeader .headRight .service .serList div {
+        display: none;
+        border: 1px solid transparent; }
+        .midHeader .headRight .service .serList div a {
+          display: block; }
+    .midHeader .headRight .hotLine span {
+      color: #c00;
+      margin-left: 4px; }
+
+.inputBox {
+  width: 100%;
+  height: 125px;
+  background: pink; }
+  .inputBox img {
+    vertical-align: middle; }
+  .inputBox .midInput {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .inputBox .midInput .inputImg {
+      float: left;
+      width: 257px;
+      height: 65px;
+      float: left;
+      margin-top: 30px; }
+    .inputBox .midInput .seachBox {
+      width: 540px;
+      height: 60px;
+      float: left;
+      display: inline-block;
+      margin: 32px 0 0 20px; }
+      .inputBox .midInput .seachBox input {
+        height: 22px;
+        line-height: 22px;
+        padding: 5px;
+        border: 0 none;
+        color: #666;
+        float: left;
+        width: 439px;
+        border: 3px solid #c00; }
+      .inputBox .midInput .seachBox .seacBtn {
+        display: inline-block;
+        color: white;
+        background: #c00;
+        width: 85px;
+        height: 38px;
+        text-align: center;
+        line-height: 38px;
+        text-decoration: none; }
+      .inputBox .midInput .seachBox .inputList {
+        font-size: 12px;
+        margin-top: 5px; }
+        .inputBox .midInput .seachBox .inputList a {
+          color: #666;
+          border-left: 1px solid #999;
+          padding: 0 6px; }
+        .inputBox .midInput .seachBox .inputList .noLine {
+          border: none;
+          margin-left: -7px; }
+        .inputBox .midInput .seachBox .inputList a:hover {
+          color: #c00;
+          text-decoration: underline; }
+    .inputBox .midInput .inputRight {
+      width: 363px;
+      float: right;
+      height: 64px;
+      margin: 33px 0 0 0;
+      display: inline-block; }
+
+.navBox {
+  width: 100%;
+  height: 34px;
+  background: #900; }
+  .navBox .midNav {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative; }
+    .navBox .midNav .navMenu {
+      float: left;
+      width: 190px;
+      height: 34px;
+      line-height: 34px;
+      background: #ce171f;
+      text-align: center;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: normal;
+      color: #fff;
+      font-weight: 600;
+      box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.2); }
+    .navBox .midNav .navList {
+      width: 890px;
+      float: left;
+      height: 34px; }
+      .navBox .midNav .navList li {
+        list-style: none;
+        float: left;
+        display: inline-block;
+        line-height: 34px;
+        text-align: center;
+        float: left; }
+        .navBox .midNav .navList li a {
+          color: white;
+          padding: 0px 22px;
+          font-size: 14px;
+          display: inline-block;
+          text-decoration: none;
+          background: url(../img/navLine.png) no-repeat left center; }
+        .navBox .midNav .navList li .hotIcon {
+          width: 29px;
+          position: absolute;
+          height: 17px;
+          background: url(../img/public-24.png) no-repeat 0 -264px;
+          top: -7px;
+          margin-left: 16px; }
+        .navBox .midNav .navList li .hotIcon1 {
+          width: 29px;
+          position: absolute;
+          height: 17px;
+          background: url(../img/public-24.png) no-repeat 0 -264px;
+          top: -7px;
+          margin-left: -33px; }
+        .navBox .midNav .navList li .hotIcon2 {
+          width: 29px;
+          position: absolute;
+          height: 17px;
+          background: url(../img/public-24.png) no-repeat -36px -264px;
+          top: -7px;
+          margin-left: -33px; }
+        .navBox .midNav .navList li a:hover {
+          color: #fff;
+          text-decoration: none;
+          background: #b40c10;
+          height: 33px; }
+    .navBox .midNav .redHC {
+      float: left;
+      width: 120px;
+      height: 34px;
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+      top: 0; }
+
+/*# sourceMappingURL=header.css.map */
